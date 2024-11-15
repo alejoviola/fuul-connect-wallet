@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.main button {
+  color: black;
+  padding: 0.5rem 2rem;
+  background-color: aliceblue;
+  border-radius: 1rem;
+
+  &[data-disabled="false"] {
+    opacity: 0.4;
+    cursor: default;
+  }
+}
